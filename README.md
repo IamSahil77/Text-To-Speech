@@ -3,9 +3,7 @@
 This project demonstrates a simple web page that utilizes text-to-speech functionality. Users can enter text into a textarea, and by clicking the "Speak" button, the entered text will be spoken aloud using the browser's speech synthesis capabilities.
 
 # Technologies Used
-HTML
-CSS
-JavaScript
+HTML | CSS | JAVASCRIPT
 
 # How It Works
 The web page utilizes the Web Speech API, specifically the SpeechSynthesis interface, to convert the entered text into speech. When the user clicks the "Speak" button, the text from the textarea is retrieved, and a SpeechSynthesisUtterance object is created with the text as its content. The window.speechSynthesis.speak() function is then called with the SpeechSynthesisUtterance object to speak the text aloud.
